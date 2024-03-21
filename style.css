@@ -1,0 +1,130 @@
+
+.texts-fonts {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+     font-style: normal;
+    font-variation-settings:
+    "wdth" 100;
+    color: black;
+    padding-top: 5vh;
+
+}
+
+.heading-01{
+    font-size: 6rem;
+
+}
+
+.heading-02{
+    font-size: 4rem;
+}
+
+.heading-fonts {
+    font-family: "Turret Road", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #ff543d   ;
+    
+    padding-top: 5vh;
+  }
+
+.hero {
+    padding-top: 20vh;
+}
+  
+
+header{
+    background-image: url(./img/background-image.jpg);
+    height: 100vh;
+    text-align: center;
+}
+
+#profile{
+    margin-top: 10vh;
+    text-align: center;
+    width: 60vw;
+}
+
+.parent{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+    justify-content: center;
+
+}
+
+.heading-04{
+    margin-left: 20px;
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.text-skills {
+    margin-left: 10px;
+}
+.heading-skills{
+    font-size: 20px;
+}
+
+#skills{
+    text-align: center;
+    margin-top: 10vh;
+    border-top: 10px solid #ff853d;
+    padding-bottom: 20px;
+    border-bottom: 10px solid #ff853d
+}
+
+.heading-03{
+    color: #ff853d;
+}
+footer{
+    background-color: #ff853d;
+}
+#footer-text{
+    color: white;
+}
+
+.footer-icons{
+    color: white;
+}
+
+
+
+
+@media screen and (max-width: 780px) {
+    .parent{
+        display: grid;
+        grid-template-columns: 0.5fr;
+        grid-template-rows: repeat(1, 1fr);
+        width: 50%;
+        margin: 0;
+        text-align: left;
+        row-gap: 2rem;   
+        justify-content: center;
+    }
+
+
+    header{
+        height: 650px;
+        text-align: center;
+    }
+
+  }
+
+  @media screen and (max-width: 460px){
+    header{
+        height: 650px;
+        text-align: center;
+    }
+  }
+  @media screen and (max-width: 1024px){
+    header{
+        height: 650px;
+        
+    }
+  }
